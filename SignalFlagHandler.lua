@@ -4,11 +4,6 @@ local Maid = require(game:GetService("ServerScriptService").FederalsSystems.Util
 local GetFlagData = game:GetService("ReplicatedStorage").FederalsSystems.Remotes:WaitForChild("GetFlagData")
 local Flags = require(script.Flags)
 
--- Variables
-local inactiveColor = Color3.fromRGB(89, 85, 90)
-local weldingColor = Color3.fromRGB(196, 40, 28)
-local weldedColor = Color3.fromRGB(0,0,0)
-
 ----------------------------------------------
 
 local function giveUI(signalFlags)

@@ -32,7 +32,7 @@ local function giveUI(signalFlags)
 						currentIndices = flagIndices
 
 						print(
-							player.Name .. " has changed " .. signalFlags.Name .. " to display: " 
+							player.Name .. " has changed " .. signalFlags.Name .. " to display " 
 								.. Flags[currentIndices[1]][1] .. Flags[currentIndices[2]][1] 
 								.. Flags[currentIndices[3]][1] .. Flags[currentIndices[4]][1]
 								.. Flags[currentIndices[5]][1]
